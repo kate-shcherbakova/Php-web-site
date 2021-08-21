@@ -14,7 +14,7 @@
 	 ?>
 
 	 <br>
-	 <form method="POST" action="/index.php">
+	 <form method="POST" action="/store.php">
 		 <div class="row justify-content-center">
 		 	<div class="form-row text-center">
 			    <div class="col">
@@ -68,9 +68,6 @@
 	  </tbody>
 	</table>
 
-	<?php
-		insert_into_db($_POST['things_form'], $_POST['day_form'], $connection);
-	?>
 </body>
 
 </html>
